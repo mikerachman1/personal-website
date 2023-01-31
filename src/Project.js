@@ -17,10 +17,10 @@ const Project = ({ title,
         <h2>{title}</h2>
         <div className="project-links">
           <a href={repolink} target="_blank" rel="noreferrer">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg " class="icon"  alt='github'/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg " className="icon"  alt='github'/>
           </a>
           <a href={livelink} target="_blank" rel="noreferrer">
-            <img src="https://cdn-icons-png.flaticon.com/512/8584/8584964.png" class="icon" alt="live-app" />
+            <img src="https://cdn-icons-png.flaticon.com/512/8584/8584964.png" className="icon" alt="live-app" />
           </a>
         </div>
       </div>

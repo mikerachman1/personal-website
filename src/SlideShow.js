@@ -23,7 +23,7 @@ const SlideShow =({ images, projectNum }) => {
   }, [currentSlide, pastSlide])
 
   return (
-    <div className="slider">
+    <div className="slider project-pic">
       <div className="slider-slides">
         <div className={`slider-slide${projectNum} active`}>
           <img src={images[0]} alt="project-pic-1"/>

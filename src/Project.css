@@ -1,7 +1,7 @@
 .project {
-  border-radius: 8px;
   background-color: white;
-  box-shadow: rgb(10 10 10 / 10%) 0px 0.5em 1em -0.125em, rgb(10 10 10 / 2%) 0px 0px 0px 1px;
+  border: 3px solid blue;
+  box-shadow: 5px 7px 0 #000;
 }
 
 .project-body, .project-header {
@@ -14,7 +14,6 @@
 
 .project-pic {
   max-width: 100%;
-  border-radius: 8px;
 }
 
 .project-header {
@@ -26,4 +25,8 @@
 .project-links {
   flex: auto;
   text-align: right;
+}
+
+.project-links > :first-child {
+  padding-right: 1rem;
 }

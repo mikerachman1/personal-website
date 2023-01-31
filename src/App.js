@@ -1,18 +1,21 @@
 import React from 'react';
 import Project from './Project';
 import './App.css';
+import sofie from './images/sofie-and-me.png'
+import sofieFlip from './images/sofie-and-me-flip.png'
 
 function App() {
   return (
     <div className='App'>
       <header>
         <h1>Mike Rachman</h1>
-        <h3>Software Engineer specializing in Front-End Development</h3>
+        <h3>Software Engineer <br></br>Specializing in Front-End Development</h3>
       </header>
       <div className='about-me'>
+        <img className='dog-pic' src={sofie} alt="my-dog-and-me" />
         <h1>About Me</h1>
-        <p>Having a degree in Design and Fabrication, building things has always been a passion of mine.</p>
-        <p>I create dynamic and intuitive applications with clean designs.</p>
+        <p className='about-text'>Having a degree in Design and Fabrication, building things has always been a passion of mine.<br></br>
+          I create dynamic and intuitive applications with clean designs.</p>
       </div>
       <main>
         <h1>Projects</h1>
@@ -87,14 +90,14 @@ function App() {
       </main>
       <footer>
         <h1>Contact Me</h1>
-        <p>(484)-226-7432</p>
         <p>mikerachman1@gmail.com</p>
-        <div class="contact-links">
+        <p>(484)-226-7432</p>
+        <div className="contact-links">
           <a href="https://www.linkedin.com/in/michael-rachman-551148237/" target="_blank" rel="noreferrer">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" class="icon" alt='linkedin'/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" className="icon" alt='linkedin'/>
           </a>
           <a href="https://github.com/mikerachman1" target="_blank" rel="noreferrer">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg " class="icon"  alt='github'/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg " className="icon"  alt='github'/>
           </a>
         </div>
       </footer>

@@ -1,7 +1,7 @@
 .slider {
   display: block;
   position: relative;
-  width: 100%;
+  width: 96%;
   max-width: 1000px;
   margin: 10px;
   background-color: white;
@@ -45,8 +45,8 @@
 
 .nav-button {
   position: absolute;
-  height: 70px;
-  width: 70px;
+  height: 40px;
+  width: 40px;
   background-color: #333;
   opacity: .8;
   cursor: pointer;
@@ -88,12 +88,6 @@
   transform: translate(75%, -50%) rotate(135deg);
 }
 
-@media screen and (max-width: 640px) {
-  .nav-button {
-    height: 40px;
-    width: 40px;
-  }
-}
 
 .slider-dots {
   position: absolute;
