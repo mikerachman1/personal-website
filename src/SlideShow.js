@@ -19,34 +19,34 @@ const SlideShow =({ images }) => {
     slides[currentSlide].classList.toggle("active");
     navlinks[pastSlide].classList.toggle("active");
     navlinks[currentSlide].classList.toggle("active");
-  }, [currentSlide])
+  }, [currentSlide, pastSlide])
 
   return (
     <div className="slider">
       <div className="slider-slides">
         <div className="slider-slide active">
-          <img src={images[0]} alt="projcect-pic-1"/>
+          <img src={images[0]} alt="project-pic-1"/>
         </div>
         <div className="slider-slide">
-          <img src={images[1]} alt="projcect-pic-2"/>
+          <img src={images[1]} alt="project-pic-2"/>
         </div>
         <div className="slider-slide">
-          <img src={images[2]} alt="projcect-pic-3"/>
+          <img src={images[2]} alt="project-pic-3"/>
         </div>
         <div id="nav-button-prev" 
-            class="nav-button"
+            className="nav-button"
             onClick={() => changeSlide(currentSlide - 1)}
             ></div>
         <div id="nav-button-next" 
-            class="nav-button"
+            className="nav-button"
             onClick={() => changeSlide(currentSlide + 1)}
             ></div>
-        <div class="slider-dots">
-          <div class="slider-dot active"
+        <div className="slider-dots">
+          <div className="slider-dot active"
               onClick={() => changeSlide(0)}></div>
-          <div class="slider-dot"
+          <div className="slider-dot"
               onClick={() => changeSlide(1)}></div>
-          <div class="slider-dot"
+          <div className="slider-dot"
               onClick={() => changeSlide(2)}></div>
         </div>
       </div>

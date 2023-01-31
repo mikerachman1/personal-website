@@ -1,0 +1,29 @@
+.project {
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: rgb(10 10 10 / 10%) 0px 0.5em 1em -0.125em, rgb(10 10 10 / 2%) 0px 0px 0px 1px;
+}
+
+.project-body, .project-header {
+  padding: 0 1.5rem 0;
+}
+
+.project-body p {
+  margin-top: 0;
+}
+
+.project-pic {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-links {
+  flex: auto;
+  text-align: right;
+}
