@@ -6,12 +6,13 @@ const Project = ({ title,
                   description,
                   repolink,
                   livelink,
-                  images                    
+                  images,
+                  projectNum                    
                 }) => {
 
   return (
     <div className="project">
-      <SlideShow images={images} />
+      <SlideShow images={images} projectNum={projectNum} />
       <div className="project-header">
         <h2>{title}</h2>
         <div className="project-links">
