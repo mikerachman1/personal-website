@@ -16,8 +16,12 @@ const Project = ({ title,
       <div className="project-header">
         <h2>{title}</h2>
         <div className="project-links">
-          <a href={repolink} target="_blank" rel="noreferrer">GitHub</a>
-          <a href={livelink} target="_blank" rel="noreferrer">VisitApp</a>
+          <a href={repolink} target="_blank" rel="noreferrer">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg " class="icon"  alt='github'/>
+          </a>
+          <a href={livelink} target="_blank" rel="noreferrer">
+            <img src="https://cdn-icons-png.flaticon.com/512/8584/8584964.png" class="icon" alt="live-app" />
+          </a>
         </div>
       </div>
       <div className="project-body">
