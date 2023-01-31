@@ -1,6 +1,7 @@
 header, 
 .about-me,
-main > h1 {
+main > h1,
+footer {
   text-align: center;
 }
 
@@ -12,4 +13,19 @@ main > h1 {
   padding-left: 2rem;
   padding-right: 2rem;
   padding-bottom: 1.5rem;
+}
+
+
+footer * {
+  padding: 5px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  padding: 2px;
+}
+
+.icon {
+  max-width: 30px;
 }
