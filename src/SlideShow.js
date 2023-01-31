@@ -26,13 +26,13 @@ const SlideShow =({ images, projectNum }) => {
     <div className="slider project-pic">
       <div className="slider-slides">
         <div className={`slider-slide${projectNum} active`}>
-          <img src={images[0]} alt="project-pic-1"/>
+          <img className="pic" src={images[0]} alt="project-pic-1"/>
         </div>
         <div className={`slider-slide${projectNum}`}>
-          <img src={images[1]} alt="project-pic-2"/>
+          <img className="pic" src={images[1]} alt="project-pic-2"/>
         </div>
         <div className={`slider-slide${projectNum}`}>
-          <img src={images[2]} alt="project-pic-3"/>
+          <img className="pic" src={images[2]} alt="project-pic-3"/>
         </div>
         <div id="nav-button-prev" 
             className="nav-button"

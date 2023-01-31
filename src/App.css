@@ -13,11 +13,41 @@ footer {
   text-align: center;
 }
 
+.sun {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  position: absolute;
+  top: 65px;
+  left: 700px;
+  animation: 20s track infinite alternate;
+}
+
+@keyframes track {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(640px);
+  }
+}
+
 header > h1 {
   font-size: 80px;
   margin-top: 15rem;
-  text-shadow: -6px 5px black;
+  text-shadow: 8px 5px black;
   color: #cbcbcb;
+  animation: 20s shadow infinite alternate;
+}
+
+@keyframes shadow {
+  from {
+    text-shadow: 8px 5px black;
+  }
+  to {
+    text-shadow: -8px 5px black;
+  }
 }
 
 header > h3 {

@@ -2,12 +2,12 @@ import React from 'react';
 import Project from './Project';
 import './App.css';
 import sofie from './images/sofie-and-me.png'
-import sofieFlip from './images/sofie-and-me-flip.png'
 
 function App() {
   return (
     <div className='App'>
       <header>
+        <div className='sun'></div>
         <h1>Mike Rachman</h1>
         <h3>Software Engineer <br></br>Specializing in Front-End Development</h3>
       </header>
