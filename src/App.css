@@ -163,3 +163,15 @@ a {
     padding-right: 20rem;
   }
 }
+
+@media (max-width: 660px) {
+  .dog-pic {
+    top: 893px;
+  }
+
+  header > h1 {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
