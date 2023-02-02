@@ -6,6 +6,8 @@
   margin: 10px;
   background-color: white;
   overflow: hidden;
+
+  height: 350px;
 }
 
 .slider-slides {
@@ -29,7 +31,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: aqua;
+  background-color: white;
   transition: 1s;
   opacity: 0;
 }
@@ -47,7 +49,6 @@
   position: absolute;
   height: 40px;
   width: 40px;
-  background-color: #333;
   opacity: .8;
   cursor: pointer;
 }
@@ -68,7 +69,7 @@
 #nav-button-next::after {
   content: "";
   position: absolute;
-  border: solid white;
+  border: solid black;
   border-width: 0 4px 4px 0;
   display: inline-block;
   padding: 3px;
@@ -122,4 +123,8 @@
 .slider-dot6.active {
   background-color: #fff;
   border: 1px #333 solid;
+}
+
+.pic {
+  width: 100%;
 }

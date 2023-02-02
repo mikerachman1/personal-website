@@ -81,6 +81,7 @@ header > h3 {
   position: relative;
   background-color: white;
   box-shadow: 15px 14px 0 #000;
+  max-width: 1730px;
 }
 
 .dog-pic {

@@ -1,7 +1,27 @@
 import React from 'react';
 import Project from './Project';
 import './App.css';
-import sofie from './images/sofie-and-me.png'
+
+import sofie from './images/sofie-and-me.png';
+import ss1 from './images/screenshots/shipper-shopper/ss1.png';
+import ss2 from './images/screenshots/shipper-shopper/ss2.png';
+import ss3 from './images/screenshots/shipper-shopper/ss3.png';
+import dc1 from './images/screenshots/memory-card/dc1.png';
+import dc2 from './images/screenshots/memory-card/dc2.png';
+import dc3 from './images/screenshots/memory-card/dc3.png';
+import bs1 from './images/screenshots/battlship/bs1.png';
+import bs2 from './images/screenshots/battlship/bs2.png';
+import bs3 from './images/screenshots/battlship/bs3.png';
+import ml1 from './images/screenshots/my-library/ml1.png';
+import ml2 from './images/screenshots/my-library/ml2.png';
+import ml3 from './images/screenshots/my-library/ml3.png';
+import td1 from './images/screenshots/todo/td1.png';
+import td2 from './images/screenshots/todo/td2.png';
+import td3 from './images/screenshots/todo/td3.png';
+import fb1 from './images/screenshots/facebookclone/fb1.png';
+import fb2 from './images/screenshots/facebookclone/fb2.png';
+import fb3 from './images/screenshots/facebookclone/fb3.png';
+
 
 function App() {
   return (
@@ -27,65 +47,47 @@ function App() {
             description="E-commerce website built with React."
             repolink="https://github.com/mikerachman1/shopping-cart"
             livelink="https://mikerachman1.github.io/shopping-cart/"
-            images={["https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4-1200-80.jpg",
-                      "https://www.travelandleisure.com/thmb/HlNYcpqWt9t1IgQq1eTgJG3hp6k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/saud-beach-luzon-philippines-WRLDBEACH0421-15e2c368e7ad4495be803bd60cafa379.jpg",
-                      "https://a.cdn-hotels.com/gdcs/production97/d402/6baff29c-e43b-4caf-a9e8-5dcf1279dea0.jpg"
-                    ]}
+            images={[ss1, ss2, ss3]}
             projectNum={1}
           />
           <Project 
-            title="Shipper Shopper"
-            description="E-commerce website built with React."
-            repolink="https://github.com/mikerachman1/shopping-cart"
-            livelink="https://mikerachman1.github.io/shopping-cart/"
-            images={["https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4-1200-80.jpg",
-                      "https://www.travelandleisure.com/thmb/HlNYcpqWt9t1IgQq1eTgJG3hp6k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/saud-beach-luzon-philippines-WRLDBEACH0421-15e2c368e7ad4495be803bd60cafa379.jpg",
-                      "https://a.cdn-hotels.com/gdcs/production97/d402/6baff29c-e43b-4caf-a9e8-5dcf1279dea0.jpg"
-                    ]}
+            title="Don't Click the Same Flag Twice!"
+            description="Memory game built with React."
+            repolink="https://github.com/mikerachman1/memory-card"
+            livelink="https://mikerachman1.github.io/memory-card/"
+            images={[dc1, dc2, dc3]}
             projectNum={2}
           />
           <Project 
-            title="Shipper Shopper"
-            description="E-commerce website built with React."
-            repolink="https://github.com/mikerachman1/shopping-cart"
-            livelink="https://mikerachman1.github.io/shopping-cart/"
-            images={["https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4-1200-80.jpg",
-                      "https://www.travelandleisure.com/thmb/HlNYcpqWt9t1IgQq1eTgJG3hp6k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/saud-beach-luzon-philippines-WRLDBEACH0421-15e2c368e7ad4495be803bd60cafa379.jpg",
-                      "https://a.cdn-hotels.com/gdcs/production97/d402/6baff29c-e43b-4caf-a9e8-5dcf1279dea0.jpg"
-                    ]}
+            title="Battleship"
+            description="A classic game of battleship played against a simple AI."
+            repolink="https://github.com/mikerachman1/battleship"
+            livelink="https://battleship-3a66c.web.app/"
+            images={[bs1, bs2, bs3]}
             projectNum={3}
           />
           <Project 
-            title="Shipper Shopper"
-            description="E-commerce website built with React."
-            repolink="https://github.com/mikerachman1/shopping-cart"
-            livelink="https://mikerachman1.github.io/shopping-cart/"
-            images={["https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4-1200-80.jpg",
-                      "https://www.travelandleisure.com/thmb/HlNYcpqWt9t1IgQq1eTgJG3hp6k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/saud-beach-luzon-philippines-WRLDBEACH0421-15e2c368e7ad4495be803bd60cafa379.jpg",
-                      "https://a.cdn-hotels.com/gdcs/production97/d402/6baff29c-e43b-4caf-a9e8-5dcf1279dea0.jpg"
-                    ]}
+            title="My Library"
+            description="React app for keeping track of books read and books to read"
+            repolink="https://github.com/mikerachman1/react-library"
+            livelink="https://library-60e1f.web.app/"
+            images={[ml1, ml2, ml3]}
             projectNum={4}
           />
           <Project 
-            title="Shipper Shopper"
-            description="E-commerce website built with React."
-            repolink="https://github.com/mikerachman1/shopping-cart"
-            livelink="https://mikerachman1.github.io/shopping-cart/"
-            images={["https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4-1200-80.jpg",
-                      "https://www.travelandleisure.com/thmb/HlNYcpqWt9t1IgQq1eTgJG3hp6k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/saud-beach-luzon-philippines-WRLDBEACH0421-15e2c368e7ad4495be803bd60cafa379.jpg",
-                      "https://a.cdn-hotels.com/gdcs/production97/d402/6baff29c-e43b-4caf-a9e8-5dcf1279dea0.jpg"
-                    ]}
+            title="ToDo!"
+            description="Todo list that allows the user to organize their todo lists into seperate 'Projects'."
+            repolink="https://github.com/mikerachman1/todo-js"
+            livelink="https://todo1-ed178.web.app/"
+            images={[td1, td2, td3]}
             projectNum={5}
           />
           <Project 
-            title="Shipper Shopper"
-            description="E-commerce website built with React."
-            repolink="https://github.com/mikerachman1/shopping-cart"
-            livelink="https://mikerachman1.github.io/shopping-cart/"
-            images={["https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4-1200-80.jpg",
-                      "https://www.travelandleisure.com/thmb/HlNYcpqWt9t1IgQq1eTgJG3hp6k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/saud-beach-luzon-philippines-WRLDBEACH0421-15e2c368e7ad4495be803bd60cafa379.jpg",
-                      "https://a.cdn-hotels.com/gdcs/production97/d402/6baff29c-e43b-4caf-a9e8-5dcf1279dea0.jpg"
-                    ]}
+            title="Rails Facebook Clone"
+            description="Ruby on Rails app replicating core Facebook functionality."
+            repolink="https://github.com/mikerachman1/odin_facebook"
+            livelink="https://odin-facebook.fly.dev/users/sign_in"
+            images={[fb1, fb2, fb3]}
             projectNum={6}
           />
         </div>
