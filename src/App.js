@@ -51,8 +51,8 @@ function App() {
             projectNum={1}
           />
           <Project 
-            title="Don't Click the Same Flag Twice!"
-            description="Memory game built with React."
+            title="Flag Memory Game"
+            description="Game built with React."
             repolink="https://github.com/mikerachman1/memory-card"
             livelink="https://mikerachman1.github.io/memory-card/"
             images={[dc1, dc2, dc3]}
