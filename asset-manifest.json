@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.dd6028ba.css",
+    "main.js": "/personal-website/static/js/main.c5b75dcf.js",
+    "static/media/sofie-and-me.png": "/personal-website/static/media/sofie-and-me.5b104400cde99b51f593.png",
+    "static/media/rs3.png": "/personal-website/static/media/rs3.3d603c3883af184a2132.png",
+    "static/media/rs1.png": "/personal-website/static/media/rs1.6d1017d1c496fa9be246.png",
+    "static/media/ss2.png": "/personal-website/static/media/ss2.4a0ce28c8b4641294a60.png",
+    "static/media/rs2.png": "/personal-website/static/media/rs2.24e8fa6d80294b87d366.png",
+    "static/media/ss1.png": "/personal-website/static/media/ss1.19fe8cfc3641f6c2789a.png",
+    "static/media/dc2.png": "/personal-website/static/media/dc2.7a4bd9d3967649ab4250.png",
+    "static/media/dc1.png": "/personal-website/static/media/dc1.ebc143e300bb856845ea.png",
+    "static/media/td2.png": "/personal-website/static/media/td2.286ebd56d19402ad6183.png",
+    "static/media/dc3.png": "/personal-website/static/media/dc3.35ef713a856fb5576a6a.png",
+    "static/media/bs3.png": "/personal-website/static/media/bs3.2c90a01bd6a39d2cc34f.png",
+    "static/media/td1.png": "/personal-website/static/media/td1.c6b9eda50a82de42cc94.png",
+    "static/media/ml3.png": "/personal-website/static/media/ml3.7e537a5d7d96dc74d7bb.png",
+    "static/media/ml1.png": "/personal-website/static/media/ml1.1688c6671ff6ffb02220.png",
+    "static/media/ml2.png": "/personal-website/static/media/ml2.25a741bb4eb141e016ae.png",
+    "static/media/ss3.png": "/personal-website/static/media/ss3.d069bf8acbf15e81346a.png",
+    "static/media/bs2.png": "/personal-website/static/media/bs2.746c66813f7f695ba7c5.png",
+    "static/media/td3.png": "/personal-website/static/media/td3.351a8f64448c487de7d6.png",
+    "static/media/bs1.png": "/personal-website/static/media/bs1.b861531b497e9830ebc8.png",
+    "index.html": "/personal-website/index.html",
+    "main.dd6028ba.css.map": "/personal-website/static/css/main.dd6028ba.css.map",
+    "main.c5b75dcf.js.map": "/personal-website/static/js/main.c5b75dcf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd6028ba.css",
+    "static/js/main.c5b75dcf.js"
+  ]
+}
