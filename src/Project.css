@@ -2,6 +2,7 @@
   background-color: white;
   border: 3px solid blue;
   box-shadow: 5px 7px 0 #000;
+  /* width: 473px; */
 }
 
 .project-body, .project-header {
@@ -22,6 +23,18 @@
   align-items: center;
 }
 
+.project-header > a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.project-header > a:hover {
+  color: blue;
+}
+
 .project-links {
   flex: auto;
   text-align: right;
@@ -29,4 +42,10 @@
 
 .project-links > :first-child {
   padding-right: 1rem;
+}
+
+@media (max-width: 665px) {
+  .project {
+    box-shadow: none;
+  }
 }

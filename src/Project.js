@@ -14,13 +14,12 @@ const Project = ({ title,
     <div className="project">
       <SlideShow images={images} projectNum={projectNum} />
       <div className="project-header">
-        <h2>{title}</h2>
+        <a href={livelink} target="_blank" rel="noreferrer">
+          {title}
+        </a>
         <div className="project-links">
           <a href={repolink} target="_blank" rel="noreferrer">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg " className="icon"  alt='github'/>
-          </a>
-          <a href={livelink} target="_blank" rel="noreferrer">
-            <img src="https://cdn-icons-png.flaticon.com/512/8584/8584964.png" className="icon" alt="live-app" />
           </a>
         </div>
       </div>

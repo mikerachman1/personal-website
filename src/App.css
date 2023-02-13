@@ -2,8 +2,17 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+  height: 100%;
+}
+
+h1 {
+  margin: 0;
+}
+
 body {
   margin: 0;
+  height: 100%;
 }
 
 header, 
@@ -13,39 +22,16 @@ footer {
   text-align: center;
 }
 
-.sun-container {
-  height: 118px;
-  width: 700px;
-  margin: 5rem auto;
-  position: relative;
-}
-
-.sun {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  background-color: orange;
-  position: absolute;
-  animation: 20s track infinite alternate;
-  border: 9px solid #ffc600;
-  box-shadow: 0 8px 10px -5px rgb(0 0 0 / 16%), 0 16px 24px 2px rgb(0 0 0 / 11%), 0 6px 30px 5px rgb(0 0 0 / 10%);
-}
-
-@keyframes track {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(582px);
-  }
-}
-
 header > h1 {
-  font-size: 80px;
-  margin-top: 5rem;
+  font-size: 70px;
   text-shadow: 8px 5px black;
   color: #cbcbcb;
-  animation: 20s shadow infinite alternate;
+  width: 87%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+  animation: 4s shadow infinite alternate;
 }
 
 @keyframes shadow {
@@ -53,7 +39,7 @@ header > h1 {
     text-shadow: 8px 5px black;
   }
   to {
-    text-shadow: -8px 5px black;
+    text-shadow: -8px -5px black;
   }
 }
 
@@ -89,10 +75,13 @@ header > h3 {
   width: 270px;
   height: auto;
   position: absolute;
-  top: 809px;
+  top: 700px;
   left: 200px;
+  margin-left: auto;
+  margin-right: auto;
   transition: all 1s;
 }
+
 
 .about-me:hover > .dog-pic {
   transform: translateY(-230px);
@@ -100,13 +89,9 @@ header > h3 {
 
 .projects-container {
   display: grid;
-  justify-content: center;
   grid-gap: 26px;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 1.5rem;
-  padding-top: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  padding: 1.5rem 2rem;
 }
 
 main > h1 {
@@ -162,32 +147,23 @@ a {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 665px) {
   .dog-pic {
-    top: 933px;
+    top: 850px;
+  }
+  .projects-container {
+    padding: 0;
+    margin: auto;
   }
 
-  header > h1 {
-    width: 550px;
-    margin-left: auto;
-    margin-right: auto;
+  .about-text {
+    box-shadow: none;
+    padding: 1rem;
   }
+}
 
-  .sun-container {
-    margin: 2rem auto;
-    width: 550px;
-  }
-
-  .sun {
-    animation: 20s track2 infinite alternate;
-  }
-
-  @keyframes track2 {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(432px);
-    }
+@media (max-width: 515px) {
+  .dog-pic {
+    left: 50px;
   }
 }
