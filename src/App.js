@@ -18,18 +18,18 @@ import ml3 from './images/screenshots/my-library/ml3.png';
 import td1 from './images/screenshots/todo/td1.png';
 import td2 from './images/screenshots/todo/td2.png';
 import td3 from './images/screenshots/todo/td3.png';
-import fb1 from './images/screenshots/facebookclone/fb1.png';
-import fb2 from './images/screenshots/facebookclone/fb2.png';
-import fb3 from './images/screenshots/facebookclone/fb3.png';
+import rs1 from './images/screenshots/rockstagram/rs1.png';
+import rs2 from './images/screenshots/rockstagram/rs2.png';
+import rs3 from './images/screenshots/rockstagram/rs3.png';
 
 
 function App() {
   return (
     <div className='App'>
       <header>
-        <div className='sun-container'>
+        {/* <div className='sun-container'>
           <div className='sun'></div>
-        </div>
+        </div> */}
         <h1>Mike Rachman</h1>
         <h3>Software Engineer <br></br>Specializing in Front-End Development</h3>
       </header>
@@ -43,12 +43,20 @@ function App() {
         <h1>Projects</h1>
         <div className='projects-container'>
           <Project 
+            title="Rockstagram"
+            description="A photo sharing app for rock climbers."
+            repolink="https://github.com/mikerachman1/rockstagram"
+            livelink="https://rockstagram-9e421.web.app/"
+            images={[rs1, rs2, rs3]}
+            projectNum={1}
+          />
+          <Project 
             title="Shipper Shopper"
             description="E-commerce website built with React."
             repolink="https://github.com/mikerachman1/shopping-cart"
             livelink="https://mikerachman1.github.io/shopping-cart/"
             images={[ss1, ss2, ss3]}
-            projectNum={1}
+            projectNum={2}
           />
           <Project 
             title="Flag Memory Game"
@@ -56,7 +64,7 @@ function App() {
             repolink="https://github.com/mikerachman1/memory-card"
             livelink="https://mikerachman1.github.io/memory-card/"
             images={[dc1, dc2, dc3]}
-            projectNum={2}
+            projectNum={3}
           />
           <Project 
             title="Battleship"
@@ -64,7 +72,7 @@ function App() {
             repolink="https://github.com/mikerachman1/battleship"
             livelink="https://battleship-3a66c.web.app/"
             images={[bs1, bs2, bs3]}
-            projectNum={3}
+            projectNum={4}
           />
           <Project 
             title="My Library"
@@ -72,7 +80,7 @@ function App() {
             repolink="https://github.com/mikerachman1/react-library"
             livelink="https://library-60e1f.web.app/"
             images={[ml1, ml2, ml3]}
-            projectNum={4}
+            projectNum={5}
           />
           <Project 
             title="ToDo!"
@@ -80,14 +88,6 @@ function App() {
             repolink="https://github.com/mikerachman1/todo-js"
             livelink="https://todo1-ed178.web.app/"
             images={[td1, td2, td3]}
-            projectNum={5}
-          />
-          <Project 
-            title="Rails Facebook Clone"
-            description="Ruby on Rails app replicating core Facebook functionality."
-            repolink="https://github.com/mikerachman1/odin_facebook"
-            livelink="https://odin-facebook.fly.dev/users/sign_in"
-            images={[fb1, fb2, fb3]}
             projectNum={6}
           />
         </div>
