@@ -33,6 +33,7 @@ function App() {
       <div className='about-me'>
         <img className='dog-pic' src={sofie} alt="my-dog-and-me" />
         <h1>About Me</h1>
+        <h5 className='mobile-notice'>Tap here!</h5>
         <p className='about-text'>Having a degree in Design and Fabrication, building things has always been a passion of mine.<br></br>
           I create dynamic and intuitive applications with clean designs.</p>
       </div>
