@@ -91,7 +91,7 @@ header > h3 {
 .projects-container {
   display: grid;
   grid-gap: 26px;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   padding: 1.5rem 2rem;
 }
 
@@ -181,6 +181,11 @@ a {
 
   .mobile-notice {
     display: block;
+  }
+
+  .projects-container {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+
   }
 
 }
