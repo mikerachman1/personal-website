@@ -95,9 +95,6 @@ function App() {
         <p>mikerachman1@gmail.com</p>
         <p>(484)-226-7432</p>
         <div className="contact-links">
-          <a href="https://www.linkedin.com/in/michael-rachman-551148237/" target="_blank" rel="noreferrer">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" className="icon" alt='linkedin'/>
-          </a>
           <a href="https://github.com/mikerachman1" target="_blank" rel="noreferrer">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg " className="icon"  alt='github'/>
           </a>
