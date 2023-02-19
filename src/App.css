@@ -172,6 +172,14 @@ a {
     box-shadow: none;
     padding: 1rem;
   }
+
+  main > h1 {
+    padding-top: 2rem;
+  }
+
+  .about-text {
+    margin-bottom: 2rem;
+  }
 }
 
 @media (max-width: 515px) {
@@ -185,7 +193,6 @@ a {
 
   .projects-container {
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-
   }
 
 }
